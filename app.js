@@ -22,8 +22,6 @@ const listingRouter = require("./routes/listing");
 const reviewRouter = require("./routes/review");
 const userRouter = require("./routes/user");
 
-// const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
-
 const dns = require("dns");
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
